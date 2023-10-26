@@ -1,0 +1,523 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.one img{
+    width: 13px;
+}
+.one{
+    margin-left: 17%;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    width: 100%;
+    font-size: small; 
+    
+}
+
+
+/* .headline{
+    text-align: center;
+    display: block;
+    width: 100%;
+
+}
+.heading{
+    font-weight: 600;
+    line-height: 1.125;
+    word-spacing: 0%;
+    font-size:50px;
+    margin-top: 50px;
+    margin-bottom: 0%;
+   
+}
+.subheading{
+    font-size: 20px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  
+}
+.learnmore a{
+    text-decoration: none;
+    color: rgb(23, 105, 219);
+    font-size: large;
+    
+}
+.learn{
+    margin-right: 15px;
+} */
+.list{
+    width: 50%;
+    margin: 0px auto;
+    align-items:center ;
+
+}
+.unlist img{
+    width: 13px;
+    
+}
+.unlist{
+   display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-around;
+    font-size: small;
+    flex-wrap: wrap;
+
+}
+
+.iphone{
+    position: relative;
+    margin: 0%;
+   
+
+}
+.iphone img{
+    width: 100%;
+    height: 80%;
+    margin: 0%; 
+   
+}
+.itext{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    margin-left:25%;
+    text-align: center;   
+}
+.itext a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext h1{
+    font-weight: bolder;
+    font-size:50px;
+    margin-bottom: 0px;
+    color: white;
+}
+.itext h3{
+    font-size: 30px;
+    margin-top: 0px;
+    color: white;
+}
+
+
+.two{
+    position: relative;
+}
+
+
+.two img{
+    width: 100%;
+    height:60%;
+}
+
+.itext2{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    margin-left:25%;
+    text-align: center;   
+}
+.itext2 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext2 h1{
+    font-weight: bolder;
+    font-size:50px;
+    margin-bottom: 0px;
+    color:black;
+}
+.itext2 h3{
+    font-size: 30px;
+    margin-top: 0px;
+    color:black;
+}
+
+.three{
+    position: relative;
+   
+}
+
+.three img{
+    width: 100%;
+    height: 80%;
+}
+
+.itext3{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    margin-left:25%;
+    text-align: center;  
+    margin-top: 20px; 
+}
+.itext3 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext3 h1{
+    font-weight: bolder;
+    font-size:50px;
+    margin-bottom: 0px;
+    color:black;
+    margin-top:0px;
+}
+.itext3 p{
+    font-size: 25px;
+    margin-top: 0px;
+    color:black;
+    
+}
+.four{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.four img{
+    width: 100%;
+
+}
+
+.itext4{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    text-align: center;
+
+    
+}
+.itext4 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext4 h2{
+    font-weight: bolder;
+    font-size:40px;
+    margin-bottom: 0px;
+    color:black;
+    padding-top: 20px;
+}
+.itext4 p{
+    font-size: 20px;
+    margin-top: 0px;
+    color:black;
+    
+}
+
+/* break */
+
+.itext5{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    text-align: center;
+
+    
+}
+.itext5 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext5 h2{
+    font-weight: bolder;
+    font-size:40px;
+    margin-bottom: 0px;
+    color:white;
+    padding-top: 20px;
+}
+.itext5 h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+.itext5 p{
+    font-size: 15px;
+    margin-top: 0px;
+    color:red;
+    
+}
+
+/* divisio */
+  
+
+.five{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.five img{
+    width: 100%;
+
+}
+
+.itext6{
+    position: absolute;
+    top:0 ;
+    width: 50%;
+    text-align: center;
+    padding-top: 25%;
+    word-spacing:0em;
+
+    
+}
+.itext6 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext6 h2{
+    font-weight: bolder;
+    font-size:40px;
+    margin-bottom: 0px;
+    color:black;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.itext6 h3{
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.itext6 p{
+    font-size: 15px;
+    margin-top: 0px;
+    color:black;
+    
+}
+
+/* break */
+
+.itext7{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    text-align: center;
+
+    
+}
+.itext7 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext7 h2{
+    font-weight: bolder;
+    font-size:40px;
+    margin-bottom: 0px;
+    color:black;
+    padding-top: 20px;
+}
+.itext7 p{
+    font-size: 15px;
+    margin-top: 0px;
+    color:black;
+    
+}
+
+/* division */
+
+.six{
+    position: relative;
+    margin-top:10px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.six img{
+    width: 100%;
+    margin: 0%;
+
+}
+
+.itext8{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    text-align: center;
+
+    
+}
+.itext8 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext8 h2{
+    font-weight: bolder;
+    font-size:40px;
+    margin-bottom: 0px;
+    color:black;
+    padding-top: 20px;
+}
+.itext8 p{
+    font-size: 20px;
+    margin-top: 0px;
+    color:black;
+    
+}
+
+/* break */
+
+.itext9{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    text-align: center;
+
+    
+}
+.itext9 a{
+    text-decoration: none;
+    color: rgb(35, 131, 228);
+    font-size: larger;
+}
+.itext9 h2{
+    font-weight: bolder;
+    font-size:40px;
+    margin-bottom: 0px;
+    color:black;
+    padding-top: 20px;
+}
+
+.itext9 p{
+    font-size: 15px;
+    margin-top: 0px;
+    color:black;
+    
+}
+.seven{
+    width: 100%;
+}
+
+
+.footer {
+    width: 100%;
+    height: 810px;
+    background: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .footer__wrapper {
+    width: 970px;
+  }
+  
+  .footer ul {
+    font-size: 12px;
+    list-style: none;
+    color: #86868b;
+    border-bottom: 1px solid var(--greyLight);
+  }
+  
+  .footer ul li {
+    margin: 15px 0;
+    letter-spacing: 0.1px;
+  }
+  
+  .footer__links {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .footer__links--column {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .footer__links--column-title {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+  
+  .footer__links--column a {
+    font-size: 12px;
+    color: #515154;
+    margin-bottom: 12px;
+  }
+  
+  .footer__more {
+    font-size: 13px;
+    color: #86868b;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--greyLight);
+  }
+  
+  .footer__more a {
+    color: #06c;
+  }
+  
+  .footer__copyright {
+    width: 100%;
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 13px;
+    color: #86868b;
+    margin-top: 4px;
+    position: relative;
+  }
+  
+  .footer__copyright .links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .footer__copyright .links a {
+    padding: 0 10px;
+    color: #515154;
+    border-left: 1px solid var(--greyLight);
+  }
+  
+  .footer__copyright .links a:nth-child(1) {
+    border: none;
+  }
+  /*# sourceMappingURL=style.css.map */
+
+
+
+
